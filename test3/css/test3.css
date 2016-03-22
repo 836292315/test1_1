@@ -1,0 +1,72 @@
+*{ 
+ 				margin: 0; 
+				padding: 0; 
+				font-family: Georgia,"Time New Roman",Times,serif; 
+				font-style:italic;
+ 			} 
+ 			 		
+.InnerBox{ 
+ 			border: 1px solid #999; 
+ 			margin: 20px ; 
+ 			width: 95%; 
+ 			height: 500px; 
+ 			padding: 20px; 
+ 			background-color: #eee; 
+ 			
+ 			 
+ 		} 
+ 		 
+ 		.InnerBox_left{ 
+ 			position: relative; 
+			left:0;
+			top:0;
+ 			float: left; 
+ 			border: 1px solid #999; 
+ 			width: 200px; 
+ 			height: 150px; 
+ 			background-color: white; 
+			box-shadow: 1px 2px 3px 4px #999 ; 
+ 		} 
+ 		.InnerBox_left span{ 
+ 			position: absolute; 
+ 			left: 12px; 
+			top: 9px; 
+ 		} 
+ 		.InnerBox_right{ 
+ 			float: right; 
+ 			border: 1px solid #999; 
+			width: 120px; 
+ 			height: 500px; 
+			box-shadow: 1px 2px 3px 4px #999 ; 
+			background-color: white; 
+ 		} 
+ 		.InnerBox_mid{ 
+ 			border: 1px solid #999; 
+			margin: 0 150px 0 240px; 
+ 			height: 90%; 
+ 			padding: 20px; 
+			font-size: larger; 
+			box-shadow: 1px 2px 3px 4px #999 ; 
+ 			background-color: white; 
+		} 
+		.TeamLogo{ 
+ 			border: 1px solid  #999; 
+			position: absolute; 
+ 			top: 35px; 
+ 			left: 15px; 
+ 			width: 80px; 
+ 			height: 80px; 
+ 		} 
+ 		.InnerBox_right ul{ 
+ 			margin: 20px; 
+ 		} 
+ 		.InnerBox_right ul li{ 
+			width: 80px; 
+ 			height: 80px; 
+			
+ 			margin-top: 20px; 
+ 		} 
+ 		.InnerBox_right ul li img{ 
+			width: 80px; 
+ 			height: 80px; 
+ 		} 
