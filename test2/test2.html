@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+	header{
+		background-color:green;
+}
+	header ul{
+		float:right;
+		margin-right:2em;
+}
+	header ul li{
+		float:left;
+		margin-left:2em;
+}
+	header ul li a{
+		color:white;
+}
+	body{
+		background-color:gray;
+}
+	body div{
+            background-color:lightgray;
+            padding:1.3em 1em;
+            margin:2em;
+            border:1px solid darkgrey;
+            box-shadow:4px 4px 4px darkgrey;
+}
+	
+        }
+	body>div:nth-of-type(2)>ul,
+        body>div:nth-of-type(3)>ul{
+            list-style-type:none;
+        }
+        body>div:nth-of-type(3)>ul>li{
+            border:1px solid darkgrey;
+            width:120px;
+            text-align:center;
+            margin:5px 0;
+            padding:5px;
+        }
+        body>div:nth-of-type(3)>ul>li>p{
+            margin:5px;
+        }
+        body>div:nth-of-type(3)>ul>li>img{
+            width:90%;
+        }
+	table{
+            width:100%;
+            border:1px solid darkgrey;
+		
+        }
+	table th{
+		background-color:black;
+		color:white;
+		text-align:center;
+}
+	table tfoot{
+            background-color:darkgreen;
+        
+	
+}
+	
+	footer{
+            background-color:black;
+            height:2em;
+            color:#fff;
+            text-align:center;
+            padding:30px;
+}
+	
+        body>div:nth-of-type(5)>div{
+            margin-left:30%;
+        }
+        body>div:nth-of-type(5)>div>*{
+            float:left;
+            margin:5px 0px;
+        }
+        body>div:nth-of-type(5)>div>p,
+        body>div:nth-of-type(5)>div>label{
+            clear:left;
+        }
+        body>div:nth-of-type(5)>div>label{
+            width:8em;
+            text-align:right;
+            margin-right:1em;
+        }
+        body>div:nth-of-type(5)>div>p{
+            margin-left:11.2em;
+            font-size:0.8em;
+            color:darkgray;
+        }
+        body>div:nth-of-type(5)>button{
+            background-color:blue;
+            width:100%;
+            margin:20px 5px 0;
+            height:2em;
+            color:white;
+            font-size:1.3em;
+            border-radius:10px;
+        }
+        body>div:nth-of-type(5)>div>textarea{
+            width:80%;
+            height:5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="zhang/1.jpg" alt="An Test,Zhang">
+        <ul>
+            <li><a href="http://www.w3school.com.cn">w3cschool</a></li>
+            <li><a href="https://www.baidu.com">百度</a></li>
+            <li><a href="https://www.hao123.com">hao123</a></li>
+            <li><a href="http://ife.baidu.com">ife</a></li>
+        </ul>
+    </header>
+    <div>
+        <h2>文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        张飞 2016/3/18
+        <p>
+            &nbsp;&nbsp;本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。<br/>
+            本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。
+            这里有一个链接到<a href="http://ife.baidu.com">http://ife.baidu.com</a><b>这里有粗体字</b><br/>
+            <img src="zhang/2.jpg" alt="An Test,Zhang">
+        </p>
+        <p>
+            &nbsp;&nbsp;本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。<br/>
+            本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。
+            这里有一个链接到<a href="http://ife.baidu.com">http://ife.baidu.com</a><b>这里有粗体字</b><br/>
+        </p>
+    </div>
+    <div>
+        <h2>另一篇文章一级标签</h2>
+        <h3>文章二级标签</h3>
+        张飞 2016/3/18
+        <p>
+            &nbsp;&nbsp;本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。<br/>
+            本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。
+            这里有一个链接到<a href="http://ife.baidu.com">http://ife.baidu.com</a><b>这里有粗体字</b><br/>
+            <img src="zhang/4.jpg" alt="An Test,Zhang">
+        </p>
+        <ul>
+            <li>列表项目一</li>
+            <li>列表项目二</li>
+            <li>列表项目三</li>
+        </ul>
+    </div>
+    <div>
+        <h2>图片</h2>
+        <ul>
+            <li>
+                <p>好看的图片</p>
+                <img src="zhang/1.jpg" alt="An Test,Zhang">
+            </li>
+            <li>
+                <p>好看的图片</p>
+                <img src="zhang/2.jpg" alt="An Test,Zhang">
+            </li>
+            <li>
+                <p>好看的图片</p>
+                <img src="zhang/3.jpg" alt="An Test,Zhang">
+            </li>
+            <li>
+                <p>好看的图片</p>
+                <img src="zhang/4.jpg" alt="An Test,Zhang">
+            </li>
+            
+        </ul>
+    </div>
+    <div>
+        <h2>最后一篇文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <span>张飞2016/3/18</span>
+        <ol>
+            <li>排名1</li>
+            <li>排名2</li>
+            <li>排名3</li>
+        </ol>
+        <p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
+        <table border="1">
+           
+            <tr>
+                <th>表头</th>
+                <th>表头</th>
+                <th>表头</th>
+            </tr>
+          
+          
+            <tr>
+                <td>单元格</td>
+                <td>单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>单元格</td>
+                <td>单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>单元格</td>
+                <td>单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+            <tr>
+                <td>单元格</td>
+                <td>单元格</td>
+                <td><a href="#">操作</a></td>
+            </tr>
+           
+            <tfoot>
+            <tr>
+                <td>总计</td>
+                <span><td colspan="2" >1000</td></span>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div>
+        <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+        <div>
+            <label>请输入邮箱地址:</label>
+            <input type="text" placeholder="这是一个文本输入框">
+            <p>邮箱地址请按要求格式输入</p>
+            <label>请输入密码:</label>
+            <input type="text" placeholder="这是一个文本输入框">
+            <label>请重复输入密码：</label>
+            <input type="text" placeholder="这是一个文本输入框">
+            <p>密码请为6-16位英文数字</p>
+            <label>性别</label>
+            <input type="radio" checked="checked" name="Sex" value="male"/><span>男</span>
+            <input type="radio" name="Sex" value="female"><span>女</span>
+            <label>城市</label>
+            <select name="城市">
+	    <option value="北京">北京</option>
+            <option value="上海">上海</option>
+            <option value="天津" selected="selected">天津</option>
+            <option value="重庆">重庆</option>
+            </select>
+            <label>爱好</label>
+            <input type="checkbox"><span>运动</span>
+            <input type="checkbox"><span>艺术</span>
+            <input type="checkbox"><span>科学</span>
+            <label>个人描述</label>
+            <textarea>这是一个多行输入框，输入您的个人描述</textarea>
+        </div>
+
+        <button>确认提交</button>
+    </div>
+    <footer>
+        版权所有&copy;
+    </footer>
+</body>
+</html>
