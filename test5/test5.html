@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>
+	进击的前端菜鸟
+	</title>
+	<style>
+	.right{ 
+ 	float: right; 
+ 	border:thin solid #007e7e;
+ 	background-color:white;
+ 	width: 400px; 
+ 	margin: 20px 20px 0 0; 
+ 	overflow: hidden; 
+ } 
+ 
+ 
+ .right h2{ 
+ 	padding: 15px; 
+ 	font-size: 25px; 
+ 	border-left:3px solid #dddddd; 
+ 	margin-top: 0 
+ } 
+ .sleft{ 
+ 	float: left; 
+ 	width: 160px; 
+ 	padding: 0;margin:0; 
+ 	margin-left: -20px; 
+ 	text-align: right; 
+ } 
+ .sright{ 
+ 	margin-left: 140px; 
+ 	padding: 0.8em; 
+ 	line-height: 0.75em; 
+ 	text-align: left; 
+ } 
+ .sright input{ 
+ 	padding: 2px; 
+ } 
+ 
+ 
+ .sright p{ 
+ 	text-indent: 0; 
+ 	color:#ccc; 
+ 	font-size: 0.9em; 
+ 	padding: 2px 0 
+ } 
+ .sright select{ 
+ 	margin-top: 5px; 
+ 	border: 2px solid #330099; 
+ 	border-radius: 5px; 
+ 	background-color: #fff 
+ } 
+ 
+	.first{
+	width:100%;
+	background-color:gray;
+	margin:0px;
+	}
+	.first ul {
+	float:right;
+	margin-right:10px;
+	
+	}
+	.first ul li{
+	float:left;
+	margin-left:20px;
+	
+	}
+	.first ul li a{
+	color:white;
+	}
+	body{
+	background-color:darkgray;
+	}
+	.left{
+	background-color:white;
+	width:60%;
+	margin:20px;
+	padding:10px;
+	border:thin solid #007e7e;
+	}
+	.left span{
+	color:darkgray;
+	}
+	.second{
+	background-color:white;
+	width:60%;
+	margin:20px;
+	padding:10px;
+	border:thin solid #007e7e;
+	}
+	.second span{
+	color:darkgray;
+	}
+	.picture{
+	background-color:white;
+	width:60%;
+	margin:20px;
+	padding:10px;
+	border:thin solid #007e7e;
+	overflow: hidden; 
+	}
+	
+	
+	
+	.pic{
+			float:left;
+	        border:1px solid darkgrey;
+            width:120px;
+            text-align:center;
+            margin:5px 0;
+            padding:5px;
+	}
+	.picture  img{
+	width:90%;
+	}
+	.last{
+	background-color:white;
+	width:60%;
+	margin:20px;
+	padding:10px;
+	border:thin solid black;
+	}
+	.last table{
+	width:100%;
+	}
+	.last table th{
+	background-color:black;
+	color:white;
+	text-align:center;
+	}
+	.last table tfoot{
+	background-color:gray;
+	}
+	
+         footer{
+         	border:thin solid black;
+            background-color:black;
+            height:2em;
+            color:#fff;
+            text-align:center;
+            padding:30px;
+	</style>
+	</head>
+<body>
+		<div class="first"
+		<header >
+			<img src="zhang/2.jpg" alt="#">
+			<ul>
+				<li><a href="#">导航链接一</a>
+				<li><a href="#">导航链接二</a>
+				<li><a href="#">导航链接三</a>
+				<li><a href="#">导航链接四</a>
+			</ul>
+		</header>
+		</div>
+		<div class="right box"> 
+ 		<h2>这里是侧栏的标题</h2> 
+ 		<div class="sleft"> 
+ 			<p>请输入邮箱地址</p><br/> 
+ 			<p>请输入密码	 </p> 
+ 			<p>请重复输入密码</p><br/> 
+ 			<p>性别			 </p> 
+ 			<p>城市			 </p> 
+ 			<p>爱好			 </p> 
+ 			<p>个人描述		 </p> 
+ 		</div> 
+ 		<div class="sright"> 
+ 			<input type="text" value="请输入您的邮箱..." name="email" /> 
+			<p>邮箱地址请按要求输入</p> 
+ 			<input type="text" value="密码不能为空..." name="password" /> 
+ 			<br/><br/> 
+ 			<input type="text" value="两次密码输入一致..." name="repassword" /> 
+ 			<br/><br/><br/><br/><br/> 
+ 			<input type="radio" value="1" name="gender" /><label>男</label> 
+ 			<input type="radio" value="2" name="gender" /><label>女</label> 
+ 			<br/><br/> 
+ 			<select> 
+ 				<option value="北京">北京</option> 
+ 				<option value="上海">上海</option> 
+ 				<option value="广州">广州</option> 
+ 				<option value="深圳">深圳</option> 
+ 			</select> 
+ 			<br/><br/> 
+ 			<input type="checkbox" value="1" name="hobby" /><label>运动</label> 
+ 			<input type="checkbox" value="2" name="hobby" /><label>读书</label> 
+ 			<textarea rows="10" cols="30">请进行个人描述...</textarea> 
+ 			<input type="button" value="确认提交" style="width:100%; height:2.5em; margin-top: 10px; background-color:#3333CC; border-radius:11px; font-family:黑体; font-size:18px;color:#ffffff"/> 
+ 		</div> 
+ 	</div> 
+ 	 
+
+		
+		<div class="left">
+		<h2>文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<span>张飞 2016/3/22</span>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。
+		</p>
+		<p>本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。
+		这里有一个链接到<a href="http://ife.baidu.com">http://ife.baidu.com</a><b>这里有粗体字</b>
+		</p>
+		<img src="zhang/1.jpg" alt="An Test,Zhang">
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。
+		</p>
+		<p>本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。
+		这里有一个链接到<a href="http://ife.baidu.com">http://ife.baidu.com</a><b>这里有粗体字</b>
+		</p>
+		</div>	
+		<div class="second">
+		<h2>另一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<span>张飞 2016/3/22</span>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。
+		</p>
+		<p>本书循序渐进地对jQuery的各种方法和使用技巧进行介绍，读者可以系统地掌握jQuery中关于DOM操作,事件监听和动画效果，表单操作，Ajax以及插件方面的知识点。
+		这里有一个链接到<a href="http://ife.baidu.com">http://ife.baidu.com</a><b>这里有粗体字</b>
+		</p>
+		<img src="zhang/1.jpg" alt="An Test,Zhang">
+		<dl>
+		<dd>列表项目一</dd>
+		<dd>列表项目二</li>
+		<dd>列表项目三</dd>
+		</dl>
+		</div>
+		<div class="picture">
+		<h2>图片</h2>
+			
+			<div class = "pic">
+                <p>好看的图片</p>
+                <img src="zhang/1.jpg" alt="An Test,Zhang">
+           
+           </div>
+           <div class = "pic">
+                <p>好看的图片</p>
+                <img src="zhang/2.jpg" alt="An Test,Zhang">
+           </div>
+           <div class = "pic">
+                <p>好看的图片</p>
+                <img src="zhang/3.jpg" alt="An Test,Zhang">
+           </div>
+           <div class = "pic">
+                <p>好看的图片</p>
+                <img src="zhang/4.jpg" alt="An Test,Zhang">
+        </div>
+        <div class = "pic">
+                <p>好看的图片</p>
+                <img src="zhang/1.jpg" alt="An Test,Zhang">
+           
+           </div>
+           <div class = "pic">
+                <p>好看的图片</p>
+                <img src="zhang/2.jpg" alt="An Test,Zhang">
+           </div>
+           <div class = "pic">
+                <p>好看的图片</p>
+                <img src="zhang/3.jpg" alt="An Test,Zhang">
+           </div>
+           <div class = "pic">
+                <p>好看的图片</p>
+                <img src="zhang/4.jpg" alt="An Test,Zhang">
+        </div>
+		</div>
+		<div class="last">
+		<h2>最后一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<span>文章作者 文章发布时间</span>
+		<ol>
+		<li>排名一</li>
+		<li>排名二</li>
+		<li>排名三</li>
+		</ol>
+		下面是一个表格：
+		<table border="1">
+		<tr>
+			<th>表头</th>
+			<th>表头</th>
+			<th>表头</th>
+			</tr>
+		<tr>
+			<td>单元格</td>
+			<td>单元格</td>
+			<td><a href="#"></a></td>
+			</tr>
+		<tr>
+			<td>单元格</td>
+			<td>单元格</td>
+			<td><a href="#"></a></td>
+			</tr>
+		<tr>
+			<td>单元格</td>
+			<td>单元格</td>
+			<td><a href="#"></a></td>
+			</tr>
+		<tr>
+			<td>单元格</td>
+			<td>单元格</td>
+			<td><a href="#"></a></td>
+			</tr>
+		<tfoot>
+		<tr>
+		<td>总计</td>
+		<td colspan="2">1000</td>
+		</tr>
+		</tfoot>
+		</table>
+		
+		
+	</div>
+    <footer>
+        版权所有&copy;
+    </footer>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+</body>
+</html>
