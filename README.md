@@ -1,3 +1,3 @@
 # test1_1
-the first stage of ife
+the first phase of ife.
 HTML/CSS
